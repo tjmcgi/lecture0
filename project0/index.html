@@ -9,7 +9,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
-
+      <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Margie's House</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,38 +17,81 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Best Treats</a>
-              <a class="nav-item nav-link" href="#">Nap Spots</a>
-              <a class="nav-item nav-link" href="#">Humans</a>
+              <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="treats.html">Best Treats</a>
+              <a class="nav-item nav-link" href="naps.html">Nap Spots</a>
+              <a class="nav-item nav-link" href="humans.html">Humans</a>
             </div>
           </div>
         </nav>
-      <div>
+      </div>
+      <div class="container">
         <h2>
-        Hello, world!
+        24 5th Ave #1229
         </h2>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-sm" id="theo">
-            <img src="theo.jpg" class="img-fluid" alt="Responsive image">
+            <a href='theo.html'>
+              <figure class="figure">
+              <img src="theo.jpg" class="figure-img img-fluid" alt="Responsive image">
+              <figcaption class="figure-caption text-right">Theodore Roosevelt</figcaption>
+            </figure>
+            </a>
+            <div class="container">
             <ul>
               <li>Gets all the tennis balls</li>
               <li>Good little guy</li>
               <li>Likes treats</li>
             </ul>
           </div>
+          </div>
           <div class="col-sm" id='margie'>
-            <img src="margie.jpg" class="img-fluid" alt="Responsive image">
+            <a href="margie.html">
+              <figure class="figure">
+              <img src="margie.jpg" class="figure-img img-fluid" alt="Responsive image">
+              <figcaption class="figure-caption text-right">Margie</figcaption>
+            </figure>
+            </a>
+            <div class="container">
             <ul>
               <li>So fast</li>
               <li>Princess</li>
               <li>Pretty paws</li>
             </ul>
           </div>
+          </div>
         </div>
       </div>
+      <div class="container">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Age</th>
+              <th scope="col">Favorite Snack</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr class="table-danger">
+            <td scope="row">Margot</td>
+            <td>Tennenbaum</td>
+            <td>4</td>
+            <td>Rice</td>
+          </tr>
+          <tr class="table-warning">
+            <td scope="row">Theodore</td>
+            <td>Roosevelt</td>
+            <td>4</td>
+            <td>Food</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
     </body>
 
 </html>
